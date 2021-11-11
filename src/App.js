@@ -11,7 +11,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <GlobalStyles />
         <Routes>
-          <Route path="/" element={<DisplayAllStudents />} exact />
+          <Route path="/web-gui-kel-1" element={<DisplayAllStudents />} exact />
         </Routes>
       </ThemeProvider>
     </Router>
