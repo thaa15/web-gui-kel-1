@@ -18,7 +18,7 @@ const DisplayperStudents = () => {
       setData(response.data.data.profiles);
     };
     fetchData();
-  }, [params.id]);
+  }, [params.id, data]);
 
   const DeleteData = async () => {
     await axios.delete(`https://gui-kel-1.herokuapp.com/profiles/${params.id}`);

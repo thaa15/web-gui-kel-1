@@ -14,6 +14,15 @@ export const GridStudents = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
+  @media screen and (max-width: ${(props) => props.theme.screen.md}) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media screen and (max-width: ${(props) => props.theme.screen.sm}) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (max-width: ${(props) => props.theme.screen.xs}) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
 
 export const BoxStudents = styled(Link)`
