@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/web-gui-kel-1/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/web-gui-kel-1/static/js/main.97c20194.chunk.js",
-    "main.js.map": "/web-gui-kel-1/static/js/main.97c20194.chunk.js.map",
+    "main.js": "/web-gui-kel-1/static/js/main.e1b9e09e.chunk.js",
+    "main.js.map": "/web-gui-kel-1/static/js/main.e1b9e09e.chunk.js.map",
     "runtime-main.js": "/web-gui-kel-1/static/js/runtime-main.8302f9a8.js",
     "runtime-main.js.map": "/web-gui-kel-1/static/js/runtime-main.8302f9a8.js.map",
-    "static/js/2.76efe21e.chunk.js": "/web-gui-kel-1/static/js/2.76efe21e.chunk.js",
-    "static/js/2.76efe21e.chunk.js.map": "/web-gui-kel-1/static/js/2.76efe21e.chunk.js.map",
+    "static/js/2.fcca89e0.chunk.js": "/web-gui-kel-1/static/js/2.fcca89e0.chunk.js",
+    "static/js/2.fcca89e0.chunk.js.map": "/web-gui-kel-1/static/js/2.fcca89e0.chunk.js.map",
     "static/js/3.169574f3.chunk.js": "/web-gui-kel-1/static/js/3.169574f3.chunk.js",
     "static/js/3.169574f3.chunk.js.map": "/web-gui-kel-1/static/js/3.169574f3.chunk.js.map",
     "index.html": "/web-gui-kel-1/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/web-gui-kel-1/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.76efe21e.chunk.js.LICENSE.txt": "/web-gui-kel-1/static/js/2.76efe21e.chunk.js.LICENSE.txt"
+    "static/js/2.fcca89e0.chunk.js.LICENSE.txt": "/web-gui-kel-1/static/js/2.fcca89e0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8302f9a8.js",
-    "static/js/2.76efe21e.chunk.js",
+    "static/js/2.fcca89e0.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.97c20194.chunk.js"
+    "static/js/main.e1b9e09e.chunk.js"
   ]
 }
