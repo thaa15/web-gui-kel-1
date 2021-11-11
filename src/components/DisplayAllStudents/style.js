@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const TemplateStudents = styled.div`
   width: 85%;
@@ -15,7 +16,8 @@ export const GridStudents = styled.div`
   grid-gap: 20px;
 `;
 
-export const BoxStudents = styled.div`
+export const BoxStudents = styled(Link)`
+  display: block;
   width: 100%;
   border: 1px solid ${(props) => props.theme.color.black.A100};
   padding: 20px;

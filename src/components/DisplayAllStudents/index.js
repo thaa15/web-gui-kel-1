@@ -34,7 +34,7 @@ const DisplayAllStudents = () => {
           <GridStudents>
             {data.map((item, idx) => {
               return (
-                <BoxStudents>
+                <BoxStudents key={idx} to={`/web-gui-kel-1/${item.id}`}>
                   <h3>{item.name}</h3>
                   <h6 className="bold">{item.npm}</h6>
                   <h6>Aktifitas: {item.activity}</h6>
