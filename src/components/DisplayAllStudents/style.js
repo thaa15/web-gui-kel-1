@@ -19,6 +19,11 @@ export const GridStudents = styled.div`
 export const BoxStudents = styled(Link)`
   display: block;
   width: 100%;
+  border-radius: 5px;
   border: 1px solid ${(props) => props.theme.color.black.A100};
   padding: 20px;
+  transition: .3s all ease-in;
+  &:hover{
+    transform: scale(1.1);
+  }
 `;
