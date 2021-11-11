@@ -20,7 +20,7 @@ const DisplayAllStudents = () => {
         Daftar Mahasiswa Online
       </h1>
       <TemplateStudents>
-        {data.length == 0 ? (
+        {data.length === 0 ? (
           <h3
             style={{
               textAlign: "center",
