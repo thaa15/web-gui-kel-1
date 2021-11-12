@@ -1,6 +1,6 @@
 const theme = {
     font: {
-      primary: `'Lato', serif`,
+      primary: `'Lato', sans-serif`,
       secondary: `'Raleway', sans-serif`,
     },
     font_size: {
